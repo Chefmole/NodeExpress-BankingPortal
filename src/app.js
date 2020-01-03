@@ -34,7 +34,7 @@ app.get('/credit', (req, res) => {
     res.render('account', { account: accounts.credit });
 });
 
-app.get('/prfile', (req, res) => {
+app.get('/profile', (req, res) => {
     res.render('profile', { user: users[0] });
 });
 
